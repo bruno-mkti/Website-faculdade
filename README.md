@@ -1,1 +1,1 @@
-# Site institucional para faculdade com cálculo de media nas notas
+# Site institucional para faculdade com cálculo de média nas notas
