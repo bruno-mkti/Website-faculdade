@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculdade Exemplo</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Faculdade Exemplo</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#calculo">Calculadora de Notas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre a Faculdade</h2>
+        <p>Bem-vindo à Faculdade Exemplo, onde formamos os profissionais do futuro.</p>
+    </section>
+
+    <section id="cursos">
+        <h2>Cursos Oferecidos</h2>
+        <ul>
+            <li>Sistema da Informação</li>
+            <li>Engenharia da Computação</li>
+            <li>Psicologia</li>
+            <li>Direito</li>
+        </ul>
+    </section>
+
+    <section id="calculo">
+        <h2>Insira as notas para verificar sua média:</h2>
+        <label for="nota1">Nota 1:</label>
+        <input type="number" id="nota1" placeholder="Digite a Nota 1" required>
+
+        <label for="nota2">Nota 2:</label>
+        <input type="number" id="nota2" placeholder="Digite a Nota 2" required>
+
+        <label for="nota3">Nota 3:</label>
+        <input type="number" id="nota3" placeholder="Digite a Nota 3" required>
+
+        <button onclick="calcularMedia()">Calcular Média</button>
+
+        <h2 id="resultado"></h2>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 - Faculdade Exemplo. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
